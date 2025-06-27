@@ -5,8 +5,8 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "23.4",
-  "enableCodeCop": "true",
-  "enableUICop": "true",
+  "enableCodeCop": true,
+  "enableUICop": true,
   "customCodeCops": [
     "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.dll"
   ]
