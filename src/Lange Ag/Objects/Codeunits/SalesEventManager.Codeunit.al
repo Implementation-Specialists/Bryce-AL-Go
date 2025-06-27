@@ -6,7 +6,7 @@ using Microsoft.Assembly.Document;
 
 codeunit 50100 "Sales Event Manager"
 {
-    [EventSubscriber(ObjectType::Table, Database::"Sales Line", OnAfterCopyFromItem, '', false, false)]
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterCopyFromItem', '', false, false)]
     local procedure SalesLine_OnAfterCopyFromItem(var SalesLine: Record "Sales Line"; Item: Record Item; CurrentFieldNo: Integer; xSalesLine: Record "Sales Line")
     begin
         if SalesLine.Type = SalesLine.Type::Item then
