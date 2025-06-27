@@ -6,6 +6,7 @@
 Thumbs.db
 TestResults*.xml
 bcptTestResults*.json
+launch.json
 BuildOutput.txt
 rad.json
 .output/
