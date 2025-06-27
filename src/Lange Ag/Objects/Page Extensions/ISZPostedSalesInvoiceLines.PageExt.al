@@ -1,14 +1,14 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 using Microsoft.Sales.History;
 
-pageextension 50104 "IMS Posted Sales Invoice Lines" extends "Posted Sales Invoice Lines"
+pageextension 50104 "ISZ Posted Sales Invoice Lines" extends "Posted Sales Invoice Lines"
 {
     layout
     {
         addafter(Amount)
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
                 Editable = false;

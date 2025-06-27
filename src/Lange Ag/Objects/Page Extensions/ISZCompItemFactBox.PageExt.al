@@ -1,14 +1,14 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
-using Microsoft.Assembly.History;
+using Microsoft.Assembly.Document;
 
-pageextension 50109 "IMS Posted Assembly Order Sub" extends "Posted Assembly Order Subform"
+pageextension 50112 "ISZ Comp Item FactBox" extends "Component - Item FactBox"
 {
     layout
     {
         addafter("Unit Cost")
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
                 Editable = false;

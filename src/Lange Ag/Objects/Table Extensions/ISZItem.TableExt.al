@@ -1,12 +1,12 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 using Microsoft.Inventory.Item;
 
-tableextension 50100 "IMS Item" extends Item
+tableextension 50100 "ISZ Item" extends Item
 {
     fields
     {
-        field(50100; "IMS Standard Cost"; Decimal)
+        field(50100; "ISZ Standard Cost"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Lange Standard Cost';

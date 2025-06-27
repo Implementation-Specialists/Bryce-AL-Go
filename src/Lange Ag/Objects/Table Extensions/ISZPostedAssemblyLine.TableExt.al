@@ -1,12 +1,12 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
-using Microsoft.Sales.Document;
+using Microsoft.Assembly.History;
 
-tableextension 50101 "IMS Sales Line" extends "Sales Line"
+tableextension 50104 "ISZ Posted Assembly Line" extends "Posted Assembly Line"
 {
     fields
     {
-        field(50100; "IMS Standard Cost"; Decimal)
+        field(50100; "ISZ Standard Cost"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Lange Standard Cost';

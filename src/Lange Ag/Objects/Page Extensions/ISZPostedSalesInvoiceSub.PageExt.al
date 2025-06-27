@@ -1,14 +1,14 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 using Microsoft.Sales.History;
 
-pageextension 50105 "IMS Posted Sales Invoice Sub" extends "Posted Sales Invoice Subform"
+pageextension 50105 "ISZ Posted Sales Invoice Sub" extends "Posted Sales Invoice Subform"
 {
     layout
     {
         addafter("Unit Price")
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
                 Editable = false;

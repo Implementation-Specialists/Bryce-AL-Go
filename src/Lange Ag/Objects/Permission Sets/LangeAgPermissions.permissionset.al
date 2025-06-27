@@ -1,4 +1,4 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 permissionset 50100 LangeAgPermissions
 {

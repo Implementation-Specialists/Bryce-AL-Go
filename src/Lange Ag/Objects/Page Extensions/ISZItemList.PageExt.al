@@ -1,14 +1,14 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
-using Microsoft.Assembly.Document;
+using Microsoft.Inventory.Item;
 
-pageextension 50107 "IMS Assemble to Order Lines" extends "Assemble-to-Order Lines"
+pageextension 50106 "ISZ Item List" extends "Item List"
 {
     layout
     {
         addafter("Unit Cost")
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
                 ToolTip = 'Specifies the value of the Lange Standard Cost field.';

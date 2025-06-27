@@ -1,14 +1,14 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 using Microsoft.Sales.Document;
 
-pageextension 50103 "IMS Sales Order Subform" extends "Sales Order Subform"
+pageextension 50101 "ISZ Sales Invoice Subform" extends "Sales Invoice Subform"
 {
     layout
     {
         addafter("Unit Cost (LCY)")
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
                 Editable = false;

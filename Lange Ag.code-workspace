@@ -19,7 +19,7 @@
 			"../.alpackages"
 		],
 		"al.showExplorerAtStartup": "Never",
-		"al.rootNamespace": "IMS",
+		"al.rootNamespace": "ISZ",
 		"alOutline.appAreaMode": "addToAllControls",
 		"alOutline.codeActionsOnSave": [
 			"SortTableFields",

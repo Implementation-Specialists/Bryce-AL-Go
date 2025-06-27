@@ -1,16 +1,17 @@
-namespace IMS.LangeAg;
+namespace ISZ.LangeAg;
 
 using Microsoft.Assembly.Document;
 
-pageextension 50112 "IMS Comp Item FactBox" extends "Component - Item FactBox"
+pageextension 50111 "ISZ Comp Item Details" extends "Component - Item Details"
 {
     layout
     {
         addafter("Unit Cost")
         {
-            field("IMS Standard Cost"; Rec."IMS Standard Cost")
+            field("ISZ Standard Cost"; Rec."ISZ Standard Cost")
             {
                 ApplicationArea = All;
+                Editable = false;
                 ToolTip = 'Specifies the value of the Lange Standard Cost field.';
             }
         }
