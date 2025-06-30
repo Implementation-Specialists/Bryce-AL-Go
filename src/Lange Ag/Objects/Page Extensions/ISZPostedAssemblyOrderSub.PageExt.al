@@ -14,6 +14,12 @@ pageextension 50109 "ISZ Posted Assembly Order Sub" extends "Posted Assembly Ord
                 Editable = false;
                 ToolTip = 'Specifies the value of the Lange Standard Cost field.';
             }
+            field("ISZ Extended Standard Cost"; Rec."ISZ Extended Standard Cost")
+            {
+                ApplicationArea = All;
+                Editable = false;
+                ToolTip = 'Specifies the value of the Lange Extended Standard Cost field.';
+            }
         }
     }
 }
