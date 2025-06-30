@@ -13,5 +13,12 @@ tableextension 50104 "ISZ Posted Assembly Line" extends "Posted Assembly Line"
             DataClassification = CustomerContent;
             MinValue = 0;
         }
+        field(50101; "ISZ Extended Standard Cost"; Decimal)
+        {
+            AutoFormatType = 2;
+            Caption = 'Lange Extended Standard Cost';
+            DataClassification = CustomerContent;
+            MinValue = 0;
+        }
     }
 }
